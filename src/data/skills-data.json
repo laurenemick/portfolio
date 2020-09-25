@@ -1,0 +1,16 @@
+{
+    "languages": [
+      "HTML5,",
+      "CSS3,",
+      "Javascript ES5/ ES6,",
+      "Java,",
+      "Python"
+    ],
+    "libs-frameworks": [
+      "React,",
+      "React Testing Library,",
+      "Cypress.io",
+      "Spring,",
+      "LESS,"
+    ]
+  }

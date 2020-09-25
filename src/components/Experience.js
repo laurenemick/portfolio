@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
 const Experience = () => {
 
   return (
-    <div id='experience'>
+    <div id="experience">
         <h1>Experience Section</h1>
     </div>
   );

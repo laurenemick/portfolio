@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
 const Projects = () => {
 
   return (
-    <div id='projects'>
+    <div id="projects">
         <h1>Project Section</h1>
     </div>
   );

@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
 const Contact = () => {
 
   return (
-    <div id='contact'>
+    <div id="contact">
         <h1>Contact Section</h1>
     </div>
   );
