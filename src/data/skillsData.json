@@ -6,7 +6,7 @@
       "Java,",
       "Python"
     ],
-    "libs-frameworks": [
+    "libsAndFrameworks": [
       "React,",
       "React Testing Library,",
       "Cypress.io",

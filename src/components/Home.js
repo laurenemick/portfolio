@@ -5,7 +5,7 @@ const Home = () => {
 
   return (
     <div id="home">
-        <section id="about-me">
+        <section id="aboutMe">
           <h1>Lauren Emick</h1>
           <p>Full Stack Engineer Student at {lambdalink}.</p>
           <p>I work to build impactful solutions in a clean, secure, and efficient way.</p> 
@@ -14,7 +14,7 @@ const Home = () => {
           {/* FIXME: profile pic and add to/edit bio*/}
         </section>
 
-        <section id="recent-projects">
+        <section id="recentProjects">
           <h3>Recent Projects</h3>
         </section>
     </div>
