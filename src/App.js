@@ -12,16 +12,14 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <header>
-        <Navigation/>
+      <Navigation/>
 
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/experience" component={Experience} />
-          <Route path="/contact" component={Contact} />
-        </Switch>
-      </header>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/experience" component={Experience} />
+        <Route path="/contact" component={Contact} />
+      </Switch>
 
       <div className="footer">
 				<p>Copyright @ Lauren Emick Design 2020</p>

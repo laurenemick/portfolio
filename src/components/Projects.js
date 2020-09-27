@@ -1,4 +1,5 @@
 import React from "react";
+import projectData from "../data/projectData.json";
 
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
@@ -11,49 +12,58 @@ import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345,
+    maxWidth: 445,
   },
   media: {
-    height: 140,
+    height: 240,
   },
 });
 
-const Projects = props => {
+const Projects = () => {
   const classes = useStyles();
-  const { projectName, imageURL, description, languages, websiteURL, repo } = props.project;
 
   return (
-    <Card className={classes.root}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          alt={projectName}
-          className={classes.media}
-          image={imageURL}
-          title={projectName}
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            {projectName}
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            {description}
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            {languages}
-          </Typography>
-        </CardContent>
-      </CardActionArea>
+    <div className="projectContainer">
+      <div className="projectList">
+        {
+          projectData.map(project => (
+            <div key={project.projectName} className="project">
+              <Card className={classes.root}>
+                <CardActionArea>
+                  <CardMedia
+                    component="img"
+                    alt={project.projectName}
+                    className={classes.media}
+                    image={project.image}
+                    title={project.projectName}
+                  />
+                  <CardContent>
+                    <Typography gutterBottom variant="h5" component="h2">
+                      {project.projectName}
+                    </Typography>
+                    <Typography variant="body2" color="textSecondary" component="p">
+                      {project.description}
+                    </Typography>
+                    <Typography variant="body2" color="textSecondary" component="p">
+                      {project.languages}
+                    </Typography>
+                  </CardContent>
+                </CardActionArea>
 
-      <CardActions>
-        <Button size="small" color="primary" onClick={websiteURL}>
-          Website
-        </Button>
-        <Button size="small" color="primary" onClick={repo}>
-          Repo
-        </Button>
-      </CardActions>
-    </Card>
+                <CardActions>
+                  <Button size="small" color="primary" onClick={project.websiteURL}>
+                    Website
+                  </Button>
+                  <Button size="small" color="primary" onClick={project.repo}>
+                    Repo
+                  </Button>
+                </CardActions>
+              </Card>
+            </div>
+          ))
+        }
+      </div>
+    </div>
   );
 };
 
