@@ -1,6 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+import DrawerMenu from "../material_ui/navDrawerMenu"
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedinIn} from "@fortawesome/free-brands-svg-icons";
 import { faAt } from "@fortawesome/free-solid-svg-icons";
@@ -21,6 +23,8 @@ const Navigation = () => {
 					<FontAwesomeIcon icon={faAt} size="2x" />
 				</NavLink> 
 			</div>
+
+			<DrawerMenu classname="navDrawerMenu"/>
 
 			<div className="links">
 				<NavLink to="/">Home</NavLink>
