@@ -11,28 +11,30 @@ const Navigation = () => {
 // FIXME: add backend or mailtrap to send emails 
 // https://blog.mailtrap.io/react-send-email/
 	return (
-		<div className="navigation">
+		<section className="navigation">
 			<div className="icons">
-				<a href="https://www.linkedin.com/in/laurenemick/">
+				<a className="icon" href="https://www.linkedin.com/in/laurenemick/">
 					<FontAwesomeIcon icon={faLinkedinIn} size="2x" />
 				</a>
-				<a href="https://github.com/laurenemick">
+				<a className="icon" href="https://github.com/laurenemick">
 					<FontAwesomeIcon icon={faGithub} size="2x" /> 
 				</a>
-				<NavLink to="/contact">
+				<NavLink className="icon" to="/contact">
 					<FontAwesomeIcon icon={faAt} size="2x" />
 				</NavLink> 
 			</div>
 
-			<DrawerMenu classname="navDrawerMenu"/>
+			<div className="navDrawerMenu">
+				<DrawerMenu />
+			</div>
 
 			<div className="links">
-				<NavLink to="/">Home</NavLink>
-				<NavLink to="/projects">Projects</NavLink>
-				<NavLink to="/experience">Experience</NavLink>
-				<NavLink to="/contact">Contact</NavLink>
+				<NavLink className="link" to="/">Home</NavLink>
+				<NavLink className="link" to="/projects">Projects</NavLink>
+				<NavLink className="link" to="/experience">Experience</NavLink>
+				<NavLink className="link" to="/contact">Contact</NavLink>
 			</div>
-		</div>
+		</section>
 	);
 };
 

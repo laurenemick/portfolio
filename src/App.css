@@ -157,64 +157,89 @@ img {
   width: 100%;
 }
 
+section {
+  margin-bottom: 4%;
+}
+
 .App {
   font-family: sans-serif;
-  text-align: center;
   width: 100%;
+}
+
+.tab {
+  margin: 0 4%;
+  height: ;
 }
 
 .navigation {
-  align-items: center;
-  border-bottom: 1px solid rgb(221, 221, 221);
-  display: flex;
-  height: 70px;
-  justify-content: space-between;
-  padding: 0 3%;
   width: 100%;
-  -webkit-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
-  -moz-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
-  box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4%;
+  border-bottom: 1px solid rgb(221, 221, 221);
+  -webkit-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.45);
+  box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.45);
 }
 
 .icons {
-    width: 10%;
+    width: 40%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
 
 .links {
     font-size: 1.4rem;
-    width: 30%;
+    width: 60%;
     display: flex;
-    justify-content: space-evenly;
-}
-
-.navDrawerMenu{
-    display:none;
-}
-
-@media only screen and (max-width: 768px) {
-    .icons {
-        width: 20%;
-    }
-    
-    .links {
-        width: 40%;
-    }
+    justify-content: flex-end;
   }
-@media only screen and (min-width: 320px) and (max-width: 540px) {
-    .links {
-        display: none;
-        /* border-bottom: 1px solid rgb(221, 221, 221);
-        height: 70px;
-        padding: 0 3%;
-        width: 100%;
-        -webkit-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
-        -moz-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42);
-        box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.42); */
-      }
-    
-    .navDrawerMenu{
-        display: inline-block;
-    }
+
+.link {
+  text-decoration: none;
+  color: black;  
+  padding-left: 8%;  
+}
+
+.icon {
+  text-decoration: none;
+  color: black;  
+  padding-right: 8%;  
+}
+
+.navDrawerMenu {
+    visibility: hidden;
+}
+
+.footer {
+  width: 100%;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  padding: 0 4%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* tablet */
+@media only screen and (max-width: 800px) {
+  .navDrawerMenu {
+    visibility: hidden;
+  }
+}
+
+/* mobile */
+@media only screen and (max-width: 500px) {
+  .links {
+    display: none;
+  }
+
+  .navDrawerMenu {
+    visibility: visible;
+  }
 }

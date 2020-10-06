@@ -6,24 +6,27 @@ import Home from "./components/Home";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Navigation/>
+      <header>
+        <Navigation/>
 
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/experience" component={Experience} />
-        <Route path="/contact" component={Contact} />
-      </Switch>
-
-      <div className="footer">
-				<p>Copyright @ Lauren Emick Design 2020</p>
-			</div>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/experience" component={Experience} />
+          <Route path="/contact" component={Contact} />
+        </Switch>
+      </header>
+      
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

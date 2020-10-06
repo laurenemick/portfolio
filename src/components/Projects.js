@@ -23,7 +23,7 @@ const Projects = () => {
   const classes = useStyles();
 
   return (
-    <div className="projectContainer">
+    <div id="projects" className="tab">
       <div className="projectList">
         {
           projectData.map(project => (

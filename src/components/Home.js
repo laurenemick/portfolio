@@ -4,7 +4,7 @@ const Home = () => {
   const lambdalink = <a href="https://lambdaschool.com/" target="_blank" rel="noopener noreferrer">Lambda School</a>;
 
   return (
-    <div id="home">
+    <div id="home" className="tab">
         <section id="aboutMe">
           <h1>Lauren Emick</h1>
           <p>Full Stack Engineer Student at {lambdalink}.</p>

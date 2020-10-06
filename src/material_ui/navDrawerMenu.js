@@ -16,23 +16,16 @@ const useStyles = makeStyles(theme => ({
   root: {
     display: 'flex',
   },
-  drawer: {
-    [theme.breakpoints.up('sm')]: {
-      width: drawerWidth,
-      flexShrink: 0,
-    },
-  },
   drawerPaper: {
     width: drawerWidth
-  },
-  content: {
-    flexGrow: 1,
-    padding: theme.spacing(3),
   },
   closeMenuButton: {
     marginRight: 0,
     marginLeft: 'auto',
   },
+  listItemText: {
+      fontSize: '16px',
+  }
 }));
 
 function DrawerMenu() {
@@ -55,8 +48,13 @@ function DrawerMenu() {
             <List>
                 {
                     navLinks.map(link => (
-                        <ListItem button component={NavLink} to={link.route} onClick={handleDrawerToggle}>
-                            <ListItemText primary={link.text} />
+                        <ListItem 
+                            button 
+                            component={NavLink} 
+                            to={link.route} 
+                            onClick={handleDrawerToggle}
+                        >
+                            <ListItemText primary={link.text} classes={{primary: classes.listItemText}}/>
                         </ListItem>
                     ))
                 }
@@ -72,7 +70,7 @@ function DrawerMenu() {
                 edge="start"
                 onClick={handleDrawerToggle}
             >
-                <MenuIcon />
+                <MenuIcon fontSize="large"/>
             </IconButton>
             
             <Drawer
@@ -88,7 +86,7 @@ function DrawerMenu() {
                 }}
             >
                 <IconButton onClick={handleDrawerToggle} className={classes.closeMenuButton}>
-                    <CloseIcon/>
+                    <CloseIcon />
                 </IconButton>
                 {drawer}
             </Drawer>
