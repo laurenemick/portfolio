@@ -169,7 +169,6 @@ section {
 
 .tab {
   margin: 0 4%;
-  height: ;
 }
 
 .navigation {
@@ -186,32 +185,44 @@ section {
 }
 
 .icons {
-    width: 40%;
-    display: flex;
-    justify-content: flex-start;
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .links {
-    font-size: 1.4rem;
-    width: 60%;
-    display: flex;
-    justify-content: flex-end;
-  }
-
-.link {
-  text-decoration: none;
-  color: black;  
-  padding-left: 8%;  
+  font-size: 1.4rem;
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
 }
 
-.icon {
+.link, .icon {
   text-decoration: none;
   color: black;  
-  padding-right: 8%;  
+  padding-left: 8%; 
+}
+
+.link:hover, .icon:hover {
+  color: #C70039;  
 }
 
 .navDrawerMenu {
-    visibility: hidden;
+  visibility: hidden;
+}
+
+#projects {
+  margin-bottom: 20vh;
+}
+
+.projectList {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.project {
+  padding: 2%;
 }
 
 .footer {
@@ -220,11 +231,16 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  position: fixed;
   padding: 0 4%;
   left: 0;
   bottom: 0;
   right: 0;
+  background-color: white;
+  border-top: 1px solid rgb(221, 221, 221);
+  -webkit-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.45);
+  box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.45);
 }
 
 /* tablet */

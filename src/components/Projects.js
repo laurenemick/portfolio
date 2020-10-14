@@ -8,6 +8,7 @@ import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
+import Link from "@material-ui/core/Link";
 import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles({
@@ -16,6 +17,13 @@ const useStyles = makeStyles({
   },
   media: {
     height: 240,
+  },
+  title: {
+    fontSize: "2.4rem",
+  },
+  body: {
+    fontSize: "1.4rem",
+    color: "black",
   },
 });
 
@@ -36,26 +44,31 @@ const Projects = () => {
                     className={classes.media}
                     image={project.image}
                     title={project.projectName}
-                  />
-                  <CardContent>
-                    <Typography gutterBottom variant="h5" component="h2">
-                      {project.projectName}
-                    </Typography>
-                    <Typography variant="body2" color="textSecondary" component="p">
-                      {project.description}
-                    </Typography>
-                    <Typography variant="body2" color="textSecondary" component="p">
-                      {project.languages}
-                    </Typography>
-                  </CardContent>
-                </CardActionArea>
+                    />
+                    <CardContent>
+                      <Typography gutterBottom className={classes.title}>
+                        {project.projectName}
+                      </Typography>
+                      <Typography className={classes.body}>
+                        {project.description}
+                      </Typography>
+                      <br />
+                      <Typography className={classes.body}>
+                        {project.languages}
+                      </Typography>
+                    </CardContent>
+                  </CardActionArea>
 
                 <CardActions>
-                  <Button size="small" color="primary" onClick={project.websiteURL}>
-                    Website
+                  <Button size="large" color="secondary">
+                    <Link href={project.websiteURL} target="_blank" rel="noopener" underline="none" className={classes.body}>
+                      Website
+                    </Link>
                   </Button>
-                  <Button size="small" color="primary" onClick={project.repo}>
-                    Repo
+                  <Button size="large" color="secondary">
+                    <Link href={project.repo} target="_blank" rel="noopener" underline="none" className={classes.body}>
+                      Repo
+                    </Link>
                   </Button>
                 </CardActions>
               </Card>

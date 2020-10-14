@@ -1,7 +1,7 @@
 [
     {
         "projectName": "Game of Life",
-        "image": "https://github.com/laurenemick/portfolio/blob/master/src/images/gameoflife.png",
+        "image": "https://cdn.pixabay.com/photo/2016/08/04/09/05/coming-soon-1568623_1280.jpg",
         "description": "React js game that allows the user to create their own grid formations or choose a preset formation. There are some rules which alter the state of the cells. By pressing start, you can see how your formation evolves.",
         "about": "The Game Of Life is a cellular automaton which was created by John Conway in 1970. The game is considered a zero-player game, which means the evolution of the game is determined by the initial state and does not need any further input. Since this game allows changes to the state of the game based on pre-defined rules it is considered a Turing machine.",
         "languages": "React",
@@ -11,7 +11,7 @@
     
     {
         "projectName": "Game of Life2",
-        "image": "../images/gameoflife.png",
+        "image": "https://cdn.pixabay.com/photo/2016/08/04/09/05/coming-soon-1568623_1280.jpg",
         "description": "React js game that allows the user to create their own grid formations or choose a preset formation. There are some rules which alter the state of the cells. By pressing start, you can see how your formation evolves.",
         "about": "The Game Of Life is a cellular automaton which was created by John Conway in 1970. The game is considered a zero-player game, which means the evolution of the game is determined by the initial state and does not need any further input. Since this game allows changes to the state of the game based on pre-defined rules it is considered a Turing machine.",
         "languages": "React",
