@@ -1,16 +1,36 @@
 {
     "languages": [
-      "HTML5,",
-      "CSS3,",
-      "Javascript ES5/ ES6,",
-      "Java,",
-      "Python"
+      "HTML5",
+      "CSS3",
+      "Javascript ES5/ ES6",
+      "Java",
+      "Python 3"
     ],
     "libsAndFrameworks": [
-      "React,",
-      "React Testing Library,",
+      "ReactJS",
+      "React Testing Library",
       "Cypress.io",
-      "Spring,",
-      "LESS,"
+      "Spring",
+      "LESS",
+      "Jest",
+      "Material UI"
+    ],
+    "databases": [
+      "PostgreSQL"
+    ],
+    "softwareDev": [
+      "RESTful APIs",
+      "AGILE Development",
+      "Object Oriented Programming"
+    ],
+    "tools": [
+      "Visual Studio Code",
+      "Sublime",
+      "GitHub",
+      "Git",
+      "Heroku",
+      "Netlify",
+      "Vercel",
+      "Postman"
     ]
   }
