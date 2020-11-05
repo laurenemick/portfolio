@@ -5,7 +5,7 @@ const ExperienceCard = props => {
 
     return (
         <div className="experienceCard">
-            <p>{position}</p>
+            <p style={{"fontWeight": "bold", "color": "#C70039"}}>{position}</p>
             <p>{date}</p>
             <p>{description}</p>
             <p style={{whiteSpace: 'pre-line'}}>{bullets}</p>

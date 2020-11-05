@@ -2,7 +2,7 @@
     "languages": [
       "HTML5",
       "CSS3",
-      "Javascript ES5/ ES6",
+      "Javascript ES5/ES6",
       "Java",
       "Python 3"
     ],
@@ -31,6 +31,7 @@
       "Heroku",
       "Netlify",
       "Vercel",
+      "AWS Amplify",
       "Postman"
     ]
   }
