@@ -2,11 +2,21 @@
     {
         "projectName": "Citrics",
         "image": "https://cdn.pixabay.com/photo/2016/08/04/09/05/coming-soon-1568623_1280.jpg",
-        "description": "Citrics is a react web app that provides users with the ability to compare cities within the U.S and visualize various statistics",
-        "about": "Collaborated with a team of 4 developers to redesign and improve existing codebase.",
+        "description": "Citrics is a react web app that provides users with the ability to compare cities within the U.S and visualize various statistics.",
+        "about": "Collaborated with a team of 4 developers to redesign and improve existing codebase. I was responsible for deploying both front and backend, and profile page.",
         "languages": "HTML/CSS | React | Java | Spring | Redux | Ant Design | React Vis",
         "websiteURL": "https://c.citrics.dev/",
         "repo": "https://github.com/Lambda-School-Labs/citrics-fe-c/tree/main/src/components/pages"
+    },
+
+    {
+        "projectName": "Water Me",
+        "image": "https://github.com/laurenemick/portfolio/tree/master/src/data/waterMe.png",
+        "description": "With an easy to use interface for creating a plant watering schedule tailored to each individual plant, Water My Plants will remind users when it's time to feed that foliage and quench your plants' thirst.",
+        "about": "",
+        "languages": "React | Java | Spring | PostgreSQL | Material UI | Axios | Yup",
+        "websiteURL": "https://water-my-plants-og8wso66q.vercel.app/login",
+        "repo": "https://github.com/laurenemick/Front-End"
     },
     
     {
