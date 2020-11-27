@@ -13,7 +13,7 @@ const useStyles = makeStyles({
     maxWidth: 445,
   },
   media: {
-    height: 240,
+    height: 300,
   },
   title: {
     fontSize: "2.4rem",
