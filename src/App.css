@@ -226,10 +226,6 @@ section {
 
 }
 
-/* .resumeBtn {
-  
-} */
-
 .resume {
   max-width: 800px;
   width: 100%;
@@ -246,10 +242,6 @@ section {
   width: 80%;
 }
 
-/* #projects {
-  margin-bottom: 20vh;
-} */
-
 .projectList {
   display: flex;
   justify-content: space-evenly;
@@ -260,7 +252,6 @@ section {
 .project {
   padding: 2%;
 }
-
 
 .experience {
   margin-bottom: 10%;

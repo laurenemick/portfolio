@@ -39,17 +39,17 @@ const Project = props => {
                     image={imgURL}
                     title={projectName}
                 />
-                <CardContent>
-                <Typography gutterBottom className={classes.title}>
-                    {projectName}
-                </Typography>
-                <Typography className={classes.body}>
-                    {description}
-                </Typography>
-                <br />
-                <Typography className={classes.body}>
-                    {languages}
-                </Typography>
+                <CardContent style={{minHeight: "200px"}}>
+                    <Typography gutterBottom className={classes.title}>
+                        {projectName}
+                    </Typography>
+                    <Typography className={classes.body}>
+                        {languages}
+                    </Typography>
+                    <br />
+                    <Typography className={classes.body}>
+                        {description}
+                    </Typography>
                 </CardContent>
             </CardActionArea>
 
