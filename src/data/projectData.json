@@ -21,7 +21,7 @@
     
     {
         "projectName": "Game of Life",
-        "imgURL": "https://github.com/laurenemick/portfolio/blob/master/src/images/gameoflife.png?raw=true",
+        "imgURL": "https://github.com/laurenemick/portfolio/blob/master/src/images/golupdated.png?raw=true",
         "description": "React js game that allows the user to create their own grid formations or choose a preset formation. There are some rules which alter the state of the cells. By pressing start, you can see how your formation evolves.",
         "about": "The Game Of Life is a cellular automaton which was created by John Conway in 1970. The game is considered a zero-player game, which means the evolution of the game is determined by the initial state and does not need any further input. Since this game allows changes to the state of the game based on pre-defined rules it is considered a Turing machine.",
         "languages": "React",
