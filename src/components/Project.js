@@ -26,18 +26,18 @@ const useStyles = makeStyles({
 
 const Project = props => {
   const classes = useStyles();
-  const { projectName, imageURL, description, about, languages, websiteURL, repo} = props.project;
+  const { projectName, imgURL, description, about, languages, websiteURL, repo} = props.project;
 
   return (
     <div key={projectName} className="project">
         <Card className={classes.root}>
             <CardActionArea href={websiteURL} target="_blank" rel="noopener">
                 <CardMedia
-                    // component="img"
-                    // alt={projectName}
+                    component="img"
+                    alt={projectName}
                     className={classes.media}
                     image={imgURL}
-                    {/* title={projectName} */}
+                    title={projectName}
                 />
                 <CardContent>
                 <Typography gutterBottom className={classes.title}>
