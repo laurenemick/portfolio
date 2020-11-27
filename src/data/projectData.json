@@ -1,18 +1,18 @@
 [
     {
         "projectName": "Citrics",
-        "image": "https://cdn.pixabay.com/photo/2016/08/04/09/05/coming-soon-1568623_1280.jpg",
+        "imgURL": "https://github.com/laurenemick/portfolio/blob/master/src/images/waterme.png",
         "description": "Citrics is a react web app that provides users with the ability to compare cities within the U.S and visualize various statistics.",
         "about": "Collaborated with a team of 4 developers to redesign and improve existing codebase. I was responsible for deploying both front and backend, and profile page.",
-        "languages": "HTML/CSS | React | Java | Spring | Redux | Ant Design | React Vis",
+        "languages": "React | Java | Spring | PostgreSQL | Redux | Ant Design | React Vis",
         "websiteURL": "https://c.citrics.dev/",
         "repo": "https://github.com/Lambda-School-Labs/citrics-fe-c/tree/main/src/components/pages"
     },
 
     {
         "projectName": "Water Me",
-        "image": "https://github.com/laurenemick/portfolio/tree/master/src/data/waterMe.png",
-        "description": "With an easy to use interface for creating a plant watering schedule tailored to each individual plant, Water My Plants will remind users when it's time to feed that foliage and quench your plants' thirst.",
+        "imgURL": "/Users/adrienneemick/Desktop/portfolio/src/images/waterme.png",
+        "description": "With an easy to use interface for creating a plant watering schedule tailored to each individual plant, Water Me will remind users when it's time to feed that foliage and quench your plants' thirst.",
         "about": "",
         "languages": "React | Java | Spring | PostgreSQL | Material UI | Axios | Yup",
         "websiteURL": "https://water-my-plants-og8wso66q.vercel.app/login",
@@ -21,7 +21,7 @@
     
     {
         "projectName": "Game of Life",
-        "image": "https://cdn.pixabay.com/photo/2016/08/04/09/05/coming-soon-1568623_1280.jpg",
+        "imgURL": "../images/waterme.png",
         "description": "React js game that allows the user to create their own grid formations or choose a preset formation. There are some rules which alter the state of the cells. By pressing start, you can see how your formation evolves.",
         "about": "The Game Of Life is a cellular automaton which was created by John Conway in 1970. The game is considered a zero-player game, which means the evolution of the game is determined by the initial state and does not need any further input. Since this game allows changes to the state of the game based on pre-defined rules it is considered a Turing machine.",
         "languages": "React",
