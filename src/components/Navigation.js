@@ -19,9 +19,9 @@ const Navigation = () => {
 				<a className="icon" href="https://github.com/laurenemick">
 					<FontAwesomeIcon icon={faGithub} size="2x" /> 
 				</a>
-				<NavLink className="icon" to="/contact">
+				{/* <NavLink className="icon" to="/contact">
 					<FontAwesomeIcon icon={faAt} size="2x" />
-				</NavLink> 
+				</NavLink>  */}
 			</div>
 
 			<div className="navDrawerMenu">
@@ -32,7 +32,7 @@ const Navigation = () => {
 				<NavLink className="link" to="/">Home</NavLink>
 				<NavLink className="link" to="/projects">Projects</NavLink>
 				<a href="https://resume.creddle.io/resume/5j0v2dgq9qu" className="link">Resume</a>
-				<NavLink className="link" to="/contact">Contact</NavLink>
+				{/* <NavLink className="link" to="/contact">Contact</NavLink> */}
 			</div>
 		</section>
 	);
