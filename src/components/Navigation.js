@@ -31,7 +31,7 @@ const Navigation = () => {
 			<div className="links">
 				<NavLink className="link" to="/">Home</NavLink>
 				<NavLink className="link" to="/projects">Projects</NavLink>
-				<NavLink className="link" to="/experience">Experience</NavLink>
+				<a href="https://resume.creddle.io/resume/5j0v2dgq9qu" className="link">Resume</a>
 				<NavLink className="link" to="/contact">Contact</NavLink>
 			</div>
 		</section>
