@@ -3,6 +3,7 @@ import resume from "../images/Resume.pdf"
 import Button from '@material-ui/core/Button';
 import SaveIcon from '@material-ui/icons/Save';
 import { Document, Page} from 'react-pdf';
+import Typography from "@material-ui/core/Typography";
 
 // import skillsData from "../data/skillsData.json"
 // import experienceData from "../data/experienceData.json"
@@ -11,26 +12,29 @@ import { Document, Page} from 'react-pdf';
 // const ref = React.createRef();
 
 const Experience = () => {
-  const [numPages, setNumPages] = useState(null); 
-  const [pageNumber, setPageNumber] = useState(1);
+  // const [numPages, setNumPages] = useState(null); 
+  // const [pageNumber, setPageNumber] = useState(1);
 
-  function onDocumentLoadSuccess({ numPages }) {
-    setNumPages(numPages); 
-    setPageNumber(1); 
-  }
+  // function onDocumentLoadSuccess({ numPages }) {
+  //   setNumPages(numPages); 
+  //   setPageNumber(1); 
+  // }
 
   return (
-    <div>
-      <Button variant="contained" size="small" href={resume}>
+    <div className="experience">
+      <Typography style={{fontSize: "2.4rem", paddingRight: "2%"}}>
+        Download Lauren's Resume:
+      </Typography>
+      <Button varient="contained" target="_blank" rel="noopener" size="large" color="secondary" underline="none" style={{border:"1px solid black"}} href={resume}>
         <SaveIcon />
           Download
       </Button>
-      <Document
+      {/* <Document
         file='https://github.com/laurenemick/portfolio/blob/master/src/images/Resume.pdf?raw=true'
         onLoadSuccess={onDocumentLoadSuccess}
       >
         <Page pageNumber={pageNumber} /> 
-      </Document>
+      </Document> */}
     </div>
 
     // <div id="experience" className="tab">

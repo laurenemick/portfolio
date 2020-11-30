@@ -35,7 +35,7 @@ function DrawerMenu() {
     const navLinks = [
         {text: "Home", route: "/"},
         {text: "Projects", route: "/projects"}, 
-        {text: "Experience", route: "/experience"}, 
+        {text: "Resume", route: "/experience"}, 
         // {text: "Contact", route: "/contact"}
     ]
 

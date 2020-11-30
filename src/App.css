@@ -151,13 +151,13 @@ html {
 
 body {
   width: 100wh;
-  height: 90vh;
   background: linear-gradient(-45deg, #022b3a, #1f7a8c, #bfdbf7, #e1e5f2);
   background-size: 400% 400%;
   -webkit-animation: Gradient 15s ease infinite;
   -moz-animation: Gradient 15s ease infinite;
   animation: Gradient 15s ease infinite;
 }
+
 @-webkit-keyframes Gradient {
   0% {
     background-position: 0% 50%
@@ -272,12 +272,39 @@ section {
   align-items: center;
 }
 
+.profileImage {
+  border-radius: 150px;
+  width: 80%;
+}
+
+.homeContent {
+  width: 40%;
+}
+
+@media(max-width: 500px) {
+  #home {
+    flex-direction: column;
+  }
+  .profileImage {
+    width: 60%;
+    margin-bottom: 4%;
+  }
+  .profImageContainer {
+    width: 50%;
+    text-align: center;
+  }
+  .homeContent {
+    width: 80%;
+    text-align: center;
+  }
+}
+
 #aboutMe {
   padding: 4%;
   width: 50%;
 }
 
-.resume {
+/* .resume {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
@@ -291,6 +318,20 @@ section {
 }
 .rightSide {
   width: 80%;
+} */
+
+.experience {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 20% 5% 0 5%;
+  padding: 2%;
+  border-radius: 5px;
+  background-color: white;
+  border-bottom: 1px solid rgb(221, 221, 221);
+  -webkit-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.45);
+  box-shadow: 0px 2px 15px -8px rgba(0, 0, 0, 0.45);
 }
 
 .projectList {
@@ -298,6 +339,11 @@ section {
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin-bottom: 10%;
+}
+@media(max-width: 500px) {
+  .projectList {
+    padding-bottom: 20%;
+  }
 }
 
 .project {
