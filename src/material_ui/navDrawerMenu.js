@@ -36,7 +36,7 @@ function DrawerMenu() {
         {text: "Home", route: "/"},
         {text: "Projects", route: "/projects"}, 
         {text: "Experience", route: "/experience"}, 
-        {text: "Contact", route: "/contact"}
+        // {text: "Contact", route: "/contact"}
     ]
 
     function handleDrawerToggle() {
