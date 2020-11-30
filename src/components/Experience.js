@@ -22,9 +22,11 @@ const Experience = () => {
 
   return (
     <div className="experience">
-      <Typography style={{fontSize: "2.4rem", paddingRight: "2%"}}>
-        Download Lauren's Resume:
-      </Typography>
+      <div>
+        <Typography style={{fontSize: "2.4rem", paddingRight: "8px"}}>
+          Download my Resume:
+        </Typography>
+      </div>
       <Button varient="contained" target="_blank" rel="noopener" size="large" color="secondary" underline="none" style={{border:"1px solid black"}} href={resume}>
         <SaveIcon />
           Download
