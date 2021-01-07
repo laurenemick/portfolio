@@ -1,18 +1,18 @@
 [
     {
-        "projectName": "Citrics",
+        "projectName": "Pintreach",
         "imgURL": "https://github.com/laurenemick/portfolio/blob/master/src/images/citrics.png?raw=true",
-        "description": "Citrics is a react web app that provides users with the ability to compare cities within the U.S and visualize various statistics.",
-        "about": "Collaborated with a team of 4 developers to redesign and improve existing codebase. I was responsible for deploying both front and backend, and profile page.",
-        "languages": "React | Java | Spring | PostgreSQL | Redux | Ant Design | React Vis",
-        "websiteURL": "https://c.citrics.dev/",
-        "repo": "https://github.com/Lambda-School-Labs/citrics-fe-c/tree/main/src/components/pages"
+        "description": "Pintreach is an article sharing application and research tool designed to enable saving and discovery of information on the internet. Solo project.",
+        "about": "",
+        "languages": "React | Java | Spring | PostgreSQL | Context API | Material UI | Axios | Yup",
+        "websiteURL": "https://pintreach.netlify.app/",
+        "repo": "https://github.com/laurenemick/pintreach-context/tree/master/client"
     },
 
     {
         "projectName": "Water Me",
         "imgURL": "https://github.com/laurenemick/portfolio/blob/master/src/images/waterme.png?raw=true",
-        "description": "With an easy to use interface for creating a plant watering schedule tailored to each individual plant, Water Me will remind users when it's time to feed that foliage and quench your plants' thirst.",
+        "description": "With an easy to use interface for creating a plant watering schedule tailored to each individual plant, Water Me will remind users when it's time to feed their plants.",
         "about": "",
         "languages": "React | Java | Spring | PostgreSQL | Material UI | Axios | Yup",
         "websiteURL": "https://water-my-plants-og8wso66q.vercel.app/login",
