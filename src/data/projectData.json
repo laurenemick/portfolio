@@ -15,7 +15,7 @@
         "description": "With an easy to use interface for creating a plant watering schedule tailored to each individual plant, Water Me will remind users when it's time to feed their plants.",
         "about": "",
         "languages": "React | Java | Spring | PostgreSQL | Material UI | Axios | Yup",
-        "websiteURL": "https://water-my-plants-og8wso66q.vercel.app/login",
+        "websiteURL": "water-my-plants-liart.vercel.app",
         "repo": "https://github.com/laurenemick/Front-End"
     },
     
