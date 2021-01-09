@@ -48,7 +48,7 @@ const Project = props => {
                     image={imgURL}
                     title={projectName}
                 />
-                <CardContent style={{minHeight: "180px"}}>
+                <CardContent style={{minHeight: "160px"}}>
                     <Typography gutterBottom className={classes.title}>
                         {projectName}
                     </Typography>
