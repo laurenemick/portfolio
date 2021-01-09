@@ -13,7 +13,7 @@ const useStyles = makeStyles({
     maxWidth: 500,
   },
   media: {
-    height: 340,
+    height: 280,
   },
   title: {
     fontSize: "2.4rem",
@@ -22,6 +22,15 @@ const useStyles = makeStyles({
     fontSize: "1.4rem",
     color: "black",
   },
+  btn: {
+    fontSize: "1.4rem",
+    backgroundColor: "black",
+    color: "white",
+    margin: "0 2% 2%",
+    "&:hover": {
+      background: "#C70039",
+    },
+  }
 });
 
 const Project = props => {
@@ -39,7 +48,7 @@ const Project = props => {
                     image={imgURL}
                     title={projectName}
                 />
-                <CardContent style={{minHeight: "200px"}}>
+                <CardContent style={{minHeight: "180px"}}>
                     <Typography gutterBottom className={classes.title}>
                         {projectName}
                     </Typography>
@@ -54,10 +63,10 @@ const Project = props => {
             </CardActionArea>
 
             <CardActions>
-                <Button href={websiteURL} target="_blank" rel="noopener" size="large" color="secondary" underline="none" className={classes.body}>
+                <Button href={websiteURL} target="_blank" rel="noopener" size="large" color="secondary" underline="none" className={classes.btn}>
                 Website
                 </Button>
-                <Button href={repo} target="_blank" rel="noopener" size="large" color="secondary" underline="none" className={classes.body}>
+                <Button href={repo} target="_blank" rel="noopener" size="large" color="secondary" underline="none" className={classes.btn}>
                 Repo
                 </Button>
             </CardActions>
