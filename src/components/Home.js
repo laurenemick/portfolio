@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div id="home" className="tab">
       <div className="profImageContainer">
-        <img className="profileImage" src="https://media-exp1.licdn.com/dms/image/C4D03AQGoftU3F2ulmQ/profile-displayphoto-shrink_400_400/0/1594969476593?e=1611792000&v=beta&t=UETnExG_wlTRokAXb6r5sBTjcdXvxbPAxNO7ja6qzG4" alt="profile" />
+        <img className="profileImage" src="https://avatars.githubusercontent.com/u/64444915?s=460&u=a9c3af2aa4f156e00677aef2e7fd2b210898c311&v=4" alt="profile" />
       </div>
       <div className="homeContent">
         <Typography style={{fontSize: "2.4rem"}}>Lauren Emick</Typography>
